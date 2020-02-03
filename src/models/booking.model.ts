@@ -2,8 +2,8 @@ export class BookingModel {
     public id: string;
     public bedCount: number;
     public petCount: number;
-    public checkInDate: Date;
-    public checkOutDate: Date;
+    public checkInDate: string;
+    public checkOutDate: string;
     public totalFee: number;
     public roomNumber: number;
 }
