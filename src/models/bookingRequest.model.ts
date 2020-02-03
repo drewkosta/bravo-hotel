@@ -1,7 +1,8 @@
 export class BookingRequestModel {
-    private bedCount: number;
-    private petCount: number;
-    private checkInDate: Date;
-    private checkOutDate: Date;
-    private handicapAccessible: boolean;
+    public bedCount: number;
+    public petCount: number;
+    public checkInDate: Date;
+    public checkOutDate: Date;
+    public handicapAccessible: boolean;
+    public roomNumber?: number;
 }

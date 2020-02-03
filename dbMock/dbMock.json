@@ -1,0 +1,75 @@
+{
+  "rooms": [
+    {
+      "roomNumber": 101,
+      "floor": 1,
+      "bedCount": 1
+    },
+    {
+      "roomNumber": 102,
+      "floor": 1,
+      "bedCount": 1
+    },
+    {
+      "roomNumber": 103,
+      "floor": 1,
+      "bedCount": 2
+    },
+    {
+      "roomNumber": 104,
+      "floor": 1,
+      "bedCount": 2
+    },
+    {
+      "roomNumber": 105,
+      "floor": 1,
+      "bedCount": 3
+    },
+    {
+      "roomNumber": 106,
+      "floor": 1,
+      "bedCount": 3
+    },
+    {
+      "roomNumber": 201,
+      "floor": 2,
+      "bedCount": 1
+    },
+    {
+      "roomNumber": 202,
+      "floor": 2,
+      "bedCount": 1
+    },
+    {
+      "roomNumber": 203,
+      "floor": 2,
+      "bedCount": 2
+    },
+    {
+      "roomNumber": 204,
+      "floor": 2,
+      "bedCount": 2
+    },
+    {
+      "roomNumber": 205,
+      "floor": 2,
+      "bedCount": 3
+    },
+    {
+      "roomNumber": 206,
+      "floor": 2,
+      "bedCount": 3
+    }
+  ],
+  "bookings": [
+    {
+       "id": "12345",
+       "bedCount": 3,
+       "petCount": 2,
+       "checkInDate": "11/02/2021",
+       "checkOutDate": "11/04/2021",
+       "totalFee": 260,
+       "roomNumber": 105
+    }
+  ]
+}

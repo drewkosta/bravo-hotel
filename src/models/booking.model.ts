@@ -1,12 +1,9 @@
 export class BookingModel {
-    private id: string
-    private bedCount: number;
-    private petCount: number;
-    private checkInDate: Date;
-    private checkOutDate: Date;
-    private handicapAccessible: boolean;
-
-    private fee: number;
-    private roomNumber: number;
-
+    public id: string;
+    public bedCount: number;
+    public petCount: number;
+    public checkInDate: Date;
+    public checkOutDate: Date;
+    public totalFee: number;
+    public roomNumber: number;
 }
